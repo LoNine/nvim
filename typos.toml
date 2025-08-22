@@ -1,0 +1,5 @@
+[default]
+locale = "en-us"
+extend-ignore-identifiers-re = [
+  "noice",
+]
