@@ -1,10 +1,18 @@
 return {
-  {
-    'saghen/blink.cmp',
-    version = '*',
-    ---@module 'blink.cmp'
-    ---@type blink.cmp.Config
-    opts = {
+  url = { 
+    src = 'https://github.com/saghen/blink.cmp', 
+    version = 'v1.10.1',
+  },
+
+  config = function()
+    require('blink.cmp').setup({
+      fuzzy = {
+        frecency = {
+          enabled = true,
+        },
+        use_proximity = true,
+      },
+      
       keymap = {
         ["<C-j>"] = { "show", "select_next", "fallback" },
         ["<C-k>"] = { "show", "select_prev", "fallback" },
@@ -18,16 +26,17 @@ return {
         ["<C-f>"] = { "snippet_forward", "fallback" },
         ["<C-b>"] = { "snippet_backward", "fallback" },
       },
+      
       appearance = {
         nerd_font_variant = 'mono'
       },
+      
       sources = {
         default = { 'lsp', 'path', 'snippets', 'buffer' },
         providers = {
-          dadbod = { name = 'Dadbod', module = 'vim_dadbod_completion.blink' },
-        }
+          dadbod = { module = 'vim_dadbod_completion.blink' },
+        },
       },
-    },
-    opts_extend = { "sources.default" }
-  }
+    })
+  end
 }

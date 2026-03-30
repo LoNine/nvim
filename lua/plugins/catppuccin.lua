@@ -1,11 +1,10 @@
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    lazy = true,
-    priority = 1000,
-    opts = {
+  url = "https://github.com/catppuccin/nvim",
+  config = function()
+    require("catppuccin").setup({
       transparent_background = true,
-    },
-  },
+    })
+
+    vim.cmd.colorscheme("catppuccin-frappe")
+  end
 }

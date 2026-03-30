@@ -1,0 +1,118 @@
+{
+  "plugins": {
+    "autosave.nvim": {
+      "rev": "348f72cf0241e3e736e3396c4834def2f8ef8d10",
+      "src": "https://github.com/0x00-ketsu/autosave.nvim"
+    },
+    "blink.cmp": {
+      "rev": "8a2060dff4e68ac17f1c92aed526c76fb0c1ac2f",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "'v1.10.1'"
+    },
+    "copilot-lsp": {
+      "rev": "1b6d8273594643f51bb4c0c1d819bdb21b42159d",
+      "src": "https://github.com/copilotlsp-nvim/copilot-lsp"
+    },
+    "copilot.lua": {
+      "rev": "0a3e09122cfd21e62a1e9d183c61aa1cacdd7da6",
+      "src": "https://github.com/zbirenbaum/copilot.lua"
+    },
+    "dashboard-nvim": {
+      "rev": "0775e567b6c0be96d01a61795f7b64c1758262f6",
+      "src": "https://github.com/nvimdev/dashboard-nvim"
+    },
+    "fidget.nvim": {
+      "rev": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970",
+      "src": "https://github.com/j-hui/fidget.nvim"
+    },
+    "fzf-lua": {
+      "rev": "c9e7b7bfbd01f949164988ee1684035468e1995c",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "git-conflict.nvim": {
+      "rev": "4bbfdd92d547d2862a75b4e80afaf30e73f7bbb4",
+      "src": "https://github.com/akinsho/git-conflict.nvim",
+      "version": ">=0.0.0"
+    },
+    "gitsigns.nvim": {
+      "rev": "50c205548d8b037b7ff6378fca6d21146f0b6161",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "lazydev.nvim": {
+      "rev": "ff2cbcba459b637ec3fd165a2be59b7bbaeedf0d",
+      "src": "https://github.com/folke/lazydev.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "luvit-meta": {
+      "rev": "cc9b2d412d2fbd30b94a70cfc214c2a3be27a0a2",
+      "src": "https://github.com/Bilal2453/luvit-meta"
+    },
+    "mason-lspconfig.nvim": {
+      "rev": "037398b9ce4a53ba48d5f94765c641a1fd16d906",
+      "src": "https://github.com/williamboman/mason-lspconfig.nvim"
+    },
+    "mason-tool-installer.nvim": {
+      "rev": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc",
+      "src": "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
+    },
+    "mason.nvim": {
+      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+      "src": "https://github.com/williamboman/mason.nvim"
+    },
+    "mini.icons": {
+      "rev": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "mini.pairs": {
+      "rev": "b7fde3719340946feb75017ef9d75edebdeb0566",
+      "src": "https://github.com/echasnovski/mini.pairs"
+    },
+    "noice.nvim": {
+      "rev": "7bfd942445fb63089b59f97ca487d605e715f155",
+      "src": "https://github.com/folke/noice.nvim"
+    },
+    "nui.nvim": {
+      "rev": "de740991c12411b663994b2860f1a4fd0937c130",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim": {
+      "rev": "a7788416689dbefea659d9e9415c87926b0ba5d8",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "nvim-lspconfig": {
+      "rev": "16812abf0e8d8175155f26143a8504e8253e92b0",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-notify": {
+      "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
+      "src": "https://github.com/rcarriga/nvim-notify"
+    },
+    "nvim-pretty-ts-errors": {
+      "rev": "b5d8e0798884323ebbf587c54ebfa128c87f9c19",
+      "src": "https://github.com/enochchau/nvim-pretty-ts-errors"
+    },
+    "nvim-web-devicons": {
+      "rev": "d7462543c9e366c0d196c7f67a945eaaf5d99414",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "oil.nvim": {
+      "rev": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "pretty-ts-errors.nvim": {
+      "rev": "98ca383e6bf23d6868ff133edce26871ead1214e",
+      "src": "https://github.com/youyoumu/pretty-ts-errors.nvim"
+    },
+    "render-markdown.nvim": {
+      "rev": "e3c18ddd27a853f85a6f513a864cf4f2982b9f26",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}

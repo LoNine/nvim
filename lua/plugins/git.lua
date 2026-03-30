@@ -1,7 +1,14 @@
 return {
-  {
-    "lewis6991/gitsigns.nvim",
-    opts = {
+  urls = {
+    'https://github.com/lewis6991/gitsigns.nvim',
+    { 
+      src = 'https://github.com/akinsho/git-conflict.nvim', 
+      version = vim.version.range('*') 
+    }
+  },
+
+  config = function()
+    require('gitsigns').setup({
       signs = {
         add = { text = "▎" },
         change = { text = "▎" },
@@ -53,7 +60,8 @@ return {
         map("n", "<leader>ghD", function() gs.diffthis("~") end, "Diff This ~")
         map({ "o", "x" }, "ih", ":<C-U>Gitsigns select_hunk<CR>", "GitSigns Select Hunk")
       end,
-    },
-  },
-  { 'akinsho/git-conflict.nvim', version = "*", config = true }
+    })
+
+    require('git-conflict').setup()
+  end
 }

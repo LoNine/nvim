@@ -72,3 +72,17 @@ vim.o.tabstop = 2 -- Insert n spaces for a tab (default: 8)
 vim.o.softtabstop = 2 -- Number of spaces that a tab counts for while performing editing operations (default: 0)
 vim.o.expandtab = true -- Convert tabs to spaces (default: false)
 vim.o.sidescrolloff = 8 -- Minimal number of screen columns either side of cursor if wrap is `false` (default: 0)
+
+-- Configure diagnostic display
+vim.diagnostic.config({
+  virtual_text = false,
+  signs = {
+    severity = { min = vim.diagnostic.severity.HINT },
+  },
+  underline = {
+    severity = { min = vim.diagnostic.severity.HINT },
+  },
+  float = {
+    source = "always",
+  },
+})

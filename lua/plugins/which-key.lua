@@ -1,8 +1,8 @@
 return {
-  {
-    "folke/which-key.nvim",
-    event = "VimEnter",
-    opts = {
+  url = 'https://github.com/folke/which-key.nvim',
+
+  config = function()
+    require('which-key').setup({
       delay = 1000,
       icons = {
         mappings = vim.g.have_nerd_font,
@@ -46,6 +46,6 @@ return {
         { "<leader>w", group = "Window" },
         { "<leader>t", group = "Sessions" },
       },
-    },
-  },
+    })
+  end,
 }
