@@ -98,3 +98,11 @@ vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv", {})   -- move line up(v)
 vim.keymap.set("v", "<C-k>", ":m '<-2<CR>gv=gv", {})   -- move line down(v)
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
+
+vim.keymap.set("n", "<leader>ki", function()
+  require("config.utils.kebab_import").kebabcase_import_under_cursor()
+end, { desc = "Kebab-case import path (line)" })
+
+vim.keymap.set({'n', 'x', 'o'}, 's', '<Plug>(leap)')
+vim.keymap.set('n',             'S', '<Plug>(leap-from-window)')
+vim.keymap.set("n", "<leader>d", require("nvim-pretty-ts-errors").show_line_diagnostics)

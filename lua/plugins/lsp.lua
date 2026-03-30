@@ -89,6 +89,7 @@ return {
             typescript = {
               preferences = {
                 importModuleSpecifier = project_name == "v2" and "relative" or nil,
+                importModuleSpecifierEnding = "minimal",
               },
             },
           }
